@@ -40,6 +40,30 @@ app.get('/shop', (req, res) => {
     res.sendFile(path.join(initial_path, "shop.html"));
 })
 
+app.get('/client01', (req, res) => {
+    res.sendFile(path.join(initial_path, "client01.html"));
+})
+
+app.get('/client02', (req, res) => {
+    res.sendFile(path.join(initial_path, "client02.html"));
+})
+
+app.get('/client03', (req, res) => {
+    res.sendFile(path.join(initial_path, "client03.html"));
+})
+
+app.get('/client04', (req, res) => {
+    res.sendFile(path.join(initial_path, "client04.html"));
+})
+
+app.get('/client05', (req, res) => {
+    res.sendFile(path.join(initial_path, "client05.html"));
+})
+
+app.get('/client06', (req, res) => {
+    res.sendFile(path.join(initial_path, "client06.html"));
+})
+
 app.get('/blogs', (req, res) => {
     res.sendFile(path.join(initial_path, "blogs.html"));
 })
