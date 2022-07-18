@@ -93,6 +93,15 @@ body{
     grid-gap: 80px;
 }
 
+@media only screen and (max-width: 768px){
+    .blogs-section{
+        /* grid-template-columns: 1fr; */
+        display: inline-block; 
+         
+    }
+
+}
+
 .blog-image{
     width: 100%;
     height: 250px;
