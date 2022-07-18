@@ -64,6 +64,18 @@ app.get('/client06', (req, res) => {
     res.sendFile(path.join(initial_path, "client06.html"));
 })
 
+app.get('/client07', (req, res) => {
+    res.sendFile(path.join(initial_path, "client07.html"));
+})
+
+app.get('/client08', (req, res) => {
+    res.sendFile(path.join(initial_path, "client08.html"));
+})
+
+app.get('/client09', (req, res) => {
+    res.sendFile(path.join(initial_path, "client09.html"));
+})
+
 app.get('/blogs', (req, res) => {
     res.sendFile(path.join(initial_path, "blogs.html"));
 })
