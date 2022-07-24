@@ -51,7 +51,7 @@
         //     delay: 10,
         //     time: 1000
         // });
-        $(window).on('scroll', function () {
+        $(window).ready(function () {
 			$('.counter').data('countToOptions', {
 				formatter: function (value, options) {
 					return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');

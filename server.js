@@ -40,6 +40,10 @@ app.get('/shop', (req, res) => {
     res.sendFile(path.join(initial_path, "shop.html"));
 })
 
+app.get('/client0', (req, res) => {
+    res.sendFile(path.join(initial_path, "client0.html"));
+})
+
 app.get('/client01', (req, res) => {
     res.sendFile(path.join(initial_path, "client01.html"));
 })
@@ -75,6 +79,9 @@ app.get('/client08', (req, res) => {
 app.get('/client09', (req, res) => {
     res.sendFile(path.join(initial_path, "client09.html"));
 })
+app.get('/client10', (req, res) => {
+    res.sendFile(path.join(initial_path, "client10.html"));
+})
 
 app.get('/blogs', (req, res) => {
     res.sendFile(path.join(initial_path, "blogs.html"));
@@ -104,7 +111,7 @@ app.post('/upload', (req, res) => {
     })
 })
 
-app.get("/admin", (req, res) => {
+app.get("/towasoadmin", (req, res) => {
     res.sendFile(path.join(initial_path, "dashboard.html"));
 })
 

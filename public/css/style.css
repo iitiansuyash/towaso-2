@@ -1125,7 +1125,7 @@ section{
 	text-align: center;
 	border-bottom: none;
 	margin: 0;
-	padding: 124px 0 104px 0;
+	padding: 70px 0 50px 0;
 }
 .page-title h2{
 	color: #fff;
@@ -3877,9 +3877,6 @@ ul>li>a:focus, ul>li>a:hover {
 
 /*================================================ Photo Gallery Css ============================*/
 
-.photo-gallery{
-	padding-top: 115px;
-}
 .photo-gallery .load-more-option .btn-default {
 	font-size: 14px;
     padding: 14.5px 19px;
@@ -4998,9 +4995,7 @@ ul>li>a:focus, ul>li>a:hover {
 
 /*================================================= Start Shop Option ================================*/
 
-.bg-shop-section{
-	padding: 120px 0;
-}
+
 .shop-option{}
 .shop-results-box{
 	border: 1px solid #f0f0f0;
@@ -6109,7 +6104,7 @@ ul>li>a:focus, ul>li>a:hover {
 
 .footer-section {
 	background: #151414;
-	position: relative;
+	/* position: relative; */
   }
   .footer-cta {
 	border-bottom: 1px solid #373636;
@@ -6269,3 +6264,4 @@ ul>li>a:focus, ul>li>a:hover {
   }
   
 
+  

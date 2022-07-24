@@ -83,6 +83,6 @@ publishBtn.addEventListener('click', () => {
 
 auth.onAuthStateChanged((user) => {
     if(!user){
-        location.replace("/admin");
+        location.replace("/towasoadmin");
     }
 })
