@@ -111,7 +111,7 @@ app.post('/upload', (req, res) => {
     })
 })
 
-app.get("/towasoadmin", (req, res) => {
+app.get("/towardssolutionwastemanagementcompanyadmin", (req, res) => {
     res.sendFile(path.join(initial_path, "dashboard.html"));
 })
 
