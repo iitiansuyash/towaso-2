@@ -773,7 +773,7 @@ blockquote:after,
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	padding: 110px 0 56px 0;
+	padding: 70px 0 56px 0;
 }
 .section-header h3{
 	font-size: 36px;
@@ -2742,7 +2742,7 @@ section{
 ====================================================*/
 
 .about-greenforest{
-	padding: 110px 0 75px 0;
+	padding: 110px 0 20px 0;
 }
 .about-greenforest-content h2{
 	text-transform: uppercase;
