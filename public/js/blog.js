@@ -1,3 +1,4 @@
+//EACH BLOGS CAN BE OPENDED IN IT CODEE
 let blogId = decodeURI(location.pathname.split("/").pop());
 
 let docRef = db.collection("blogs").doc(blogId);

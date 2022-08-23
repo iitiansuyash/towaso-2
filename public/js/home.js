@@ -1,3 +1,4 @@
+//BLOG PAGE MAIN CODE TO RENDER IN THE DOM
 const blogSection = document.querySelector('.blogs-section');
 
 db.collection("blogs").get().then((blogs) => {
