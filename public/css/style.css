@@ -61,7 +61,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 main,
 menu,
@@ -2364,7 +2363,7 @@ section{
 
 .bg-footer-top{
 	background: #000000;
-	padding: 95px 0 85px;
+	/* padding: 95px 0 85px; */
 }
 .widgets-title{
 	margin-bottom: 32px;
